@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScrollFirewall</string>
+    <string name="accessibility_service_label">ScrollFirewall Usage Limiter</string>
+    <string name="accessibility_service_description">This service monitors usage of Instagram Reels to help you limit your daily watch time.</string>
+    
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="enable_accessibility_desc">To track Reels usage, please enable the Accessibility Service for ScrollFirewall in your device settings.</string>
+    
+    <string name="test_mode_toggle">Enable Test Mode (1 Min Limit)</string>
+    
+    <string name="time_limit_reached">Time Limit Reached!</string>
+    <string name="time_limit_desc">You have exhausted your daily allowance for Reels content.</string>
+    <string name="current_usage">Current Usage</string>
+</resources>
