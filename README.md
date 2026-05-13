@@ -293,13 +293,9 @@ The timer resets automatically every midnight using:
 
 # 📸 Screenshots
 
-> Add screenshots here after uploading images.
+![Home Screen](screenshots/home.png)
 
-```md
-[Home Screen](screenshots/home.png)
-
-[Blocking Screen](screenshots/block.png)
-```
+![Blocking Screen](screenshots/block.png)
 
 ---
 
