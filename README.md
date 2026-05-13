@@ -140,6 +140,7 @@ ScrollFirewall/
 │   └── build.gradle                        # App-level Dependencies
 └── build.gradle                            # Project-level Configuration
 
+```
 ---
 
 # 🔍 Core Working Principle
