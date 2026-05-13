@@ -279,7 +279,7 @@ The timer resets automatically every midnight using:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/ScrollFirewall.git
+git clone https://github.com/R7X-adrsya/ScrollFirewall.git
 ```
 
 ---
