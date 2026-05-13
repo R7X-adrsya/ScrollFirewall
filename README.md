@@ -124,25 +124,46 @@ ScrollFirewall solves this by targeting only addictive scrolling sections while 
 
 ```text
 ScrollFirewall/
-│
 ├── app/
-│   ├── src/main/
-│   │
-│   ├── java/com/example/scrollfirewall/
-│   │   ├── MainActivity.java
-│   │   ├── BlockingActivity.java
-│   │   ├── SessionManager.java
-│   │   ├── ReelsDetector.java
-│   │   └── ScrollFirewallAccessibilityService.java
-│   │
-│   ├── res/
-│   │   ├── layout/
-│   │   ├── values/
-│   │   └── xml/
-│   │
-│   └── AndroidManifest.xml
-│
-└── build.gradle
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/scrollfirewall/
+│   │   │   │   ├── BlockingActivity.java
+│   │   │   │   ├── MainActivity.java
+│   │   │   │   ├── ReelsDetector.java
+│   │   │   │   ├── ScrollFirewallAccessibilityService.java
+│   │   │   │   └── SessionManager.java
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_blocking.xml
+│   │   │   │   │   └── activity_main.xml
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── ic_launcher_background.xml
+│   │   │   │   ├── xml/
+│   │   │   │   │   └── accessibility_service_config.xml
+│   │   │   │   └── mipmap-*/ (App icons)
+│   │   │   └── AndroidManifest.xml
+│   │   ├── test/ (Unit tests)
+│   │   └── androidTest/ (Instrumentation tests)
+│   ├── build.gradle
+│   └── .gitignore
+├── gradle/
+│   └── wrapper/
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── build.gradle (Project level)
+├── settings.gradle
+├── gradle.properties
+├── local.properties
+├── gradlew
+├── gradlew.bat
+├── README.md
+└── .gitignore
+
+
 ```
 
 ---
@@ -275,9 +296,9 @@ The timer resets automatically every midnight using:
 > Add screenshots here after uploading images.
 
 ```md
-![Home Screen](screenshots/home.png)
+[Home Screen](screenshots/home.png)
 
-![Blocking Screen](screenshots/block.png)
+[Blocking Screen](screenshots/block.png)
 ```
 
 ---
