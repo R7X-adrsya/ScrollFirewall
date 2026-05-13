@@ -125,46 +125,20 @@ ScrollFirewall solves this by targeting only addictive scrolling sections while 
 ```text
 ScrollFirewall/
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/scrollfirewall/
-│   │   │   │   ├── BlockingActivity.java
-│   │   │   │   ├── MainActivity.java
-│   │   │   │   ├── ReelsDetector.java
-│   │   │   │   ├── ScrollFirewallAccessibilityService.java
-│   │   │   │   └── SessionManager.java
-│   │   │   ├── res/
-│   │   │   │   ├── drawable/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── activity_blocking.xml
-│   │   │   │   │   └── activity_main.xml
-│   │   │   │   ├── values/
-│   │   │   │   │   ├── colors.xml
-│   │   │   │   │   ├── strings.xml
-│   │   │   │   │   └── ic_launcher_background.xml
-│   │   │   │   ├── xml/
-│   │   │   │   │   └── accessibility_service_config.xml
-│   │   │   │   └── mipmap-*/ (App icons)
-│   │   │   └── AndroidManifest.xml
-│   │   ├── test/ (Unit tests)
-│   │   └── androidTest/ (Instrumentation tests)
-│   ├── build.gradle
-│   └── .gitignore
-├── gradle/
-│   └── wrapper/
-│       ├── gradle-wrapper.jar
-│       └── gradle-wrapper.properties
-├── build.gradle (Project level)
-├── settings.gradle
-├── gradle.properties
-├── local.properties
-├── gradlew
-├── gradlew.bat
-├── README.md
-└── .gitignore
-
-
-```
+│   ├── src/main/
+│   │   ├── java/com/example/scrollfirewall/
+│   │   │   ├── MainActivity.java           # Main UI & Permission Setup
+│   │   │   ├── BlockingActivity.java       # Full-screen Blocking Overlay
+│   │   │   ├── ReelsDetector.java          # Instagram Reels Detection Logic
+│   │   │   ├── SessionManager.java         # Timer & Usage Tracking
+│   │   │   └── ScrollFirewallAccessibilityService.java # Core Background Service
+│   │   ├── res/
+│   │   │   ├── layout/                     # XML Layouts for UI & Block Screen
+│   │   │   ├── xml/                        # Accessibility Service Configuration
+│   │   │   └── values/                     # Strings, Colors & Styles
+│   │   └── AndroidManifest.xml             # App Manifest & Permissions
+│   └── build.gradle                        # App-level Dependencies
+└── build.gradle                            # Project-level Configuration
 
 ---
 
